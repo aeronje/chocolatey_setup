@@ -22,19 +22,23 @@ aeronje_style_chocolatey_setup.ps1
 3.
 # Kapag nasa loob ka na ng PowerShell, mag-change directory ka kung saan mo ni-saved ang aeronje_style_chocolatey_setup.ps1 kanina sa step 1.
 # Kalimitan ito ay nasa Downloads.
-
-Halimbawa:
 ```
+```
+Halimbawa:
 PS C:\Windows\system32> cd C:\Users\donna\Downloads
+```
 ```
 # Ganunpaman, iba pa rin ang magiging path kung ni-saved mo ito sa ibang folder or directory.
 
 4.
 # Kapag nasa tamang path ka na kung saan mo ni-saved ang aeronje_style_chocolatey_setup.ps1 ay maaari mo na i-run ang command na .\aeronje_style_chocolatey_setup.ps1
-
-Halimbawa:
 ```
+
+```
+Halimbawa:
 PS C:\Users\donna\Downloads> .\aeronje_style_chocolatey_setup.ps1
+```
+
 ```
 5.
 # Intayin lamang na matapos ang lahat ng stages, aabot ng halos kalahating oras lahat ng ito.
