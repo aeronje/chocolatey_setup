@@ -46,4 +46,4 @@ PS C:\Users\donna\Downloads> .\aeronje_style_chocolatey_setup.ps1
 ```
 
 # Tech content
-You may watch [TC7](https://web.facebook.com/share/v/1CukzS4a56/) for more context. ```The video is in Filipino language```
+You may watch [TC5](https://web.facebook.com/share/v/1CukzS4a56/) for more context. ```The video is in Filipino language```
