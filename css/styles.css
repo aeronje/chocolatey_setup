@@ -132,13 +132,21 @@ footer {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  color: #1877f2;
-  font-size: 0.9rem;
   text-decoration: none;
 }
 
-.fb-link i {
-  font-size: 1.4rem;
+.fb-img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #1877f2;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fb-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #1877f2;
 }
 
 .fb-link span {
