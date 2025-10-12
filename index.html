@@ -1,81 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>chocolatey_setup — aeronje</title>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/a2d9b7f3b0.js" crossorigin="anonymous"></script>
-
-  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>aeronje-chocolatey_setup</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <main class="hero">
-    <div class="glass-card">
-      <h1 class="title">chocolatey_setup</h1>
-      <p class="lead">
-        This is the official landing page of <a class="repo-link" href="https://github.com/aeronje/chocolatey_setup" target="_blank" rel="noopener noreferrer">chocolatey_setup repository of aeronje</a>.
+  <main class="main-container">
+    <div class="card">
+      <p class="repo-message">
+        This is the official landing page of 
+        <a href="https://github.com/aeronje/chocolatey_setup" target="_blank">chocolatey_setup repository</a> 
+        of aeronje.
       </p>
-
-      <div class="download-row">
-        <button id="downloadBtn" class="btn-oval" title="Download aeronje_style_chocolatey_setup.ps1">
-          <span class="btn-icon">⬇</span>
-          <span class="btn-text">Download aeronje_style_chocolatey_setup.ps1</span>
-        </button>
-      </div>
-      <p class="hint">Click the download button to save the PowerShell installer directly (no extra GitHub clicks).</p>
+      <button id="downloadBtn" class="download-btn">
+        Download aeronje_style_chocolatey_setup.ps1
+      </button>
     </div>
   </main>
 
-  <!-- ✅ Unified Responsive Footer -->
-  <footer class="site-footer">
-    <!-- LEFT -->
+  <footer>
     <div class="footer-left">
-      <a href="https://github.com/aeronje/" target="_blank" rel="noopener noreferrer" class="profile-link">
-        <div class="avatar-wrap">
-          <img src="assets/images/aeronje.jpg" alt="Pogi — aeronje" class="avatar" />
-          <svg class="avatar-ring" viewBox="0 0 120 120" aria-hidden="true">
-            <defs>
-              <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stop-color="#7afcff"/>
-                <stop offset="50%" stop-color="#b28dff"/>
-                <stop offset="100%" stop-color="#ff7ab6"/>
-              </linearGradient>
-            </defs>
-            <circle cx="60" cy="60" r="54" fill="none" stroke="url(#grad1)" stroke-width="6" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <div class="profile-text">
-          <div class="name">Pogi</div>
-          <div class="byline">
-            Authored and developed by <a href="https://github.com/aeronje/" target="_blank" rel="noopener noreferrer">Pogi</a>
-          </div>
-        </div>
+      <a href="https://github.com/aeronje/" target="_blank" class="author-link">
+        <img src="assets/aeronje.jpg" alt="aeronje" class="author-img" />
       </a>
+      <p>Authored and developed by 
+        <a href="https://github.com/aeronje/" target="_blank" class="footer-name">Pogi</a>
+      </p>
     </div>
 
-    <!-- CENTER -->
     <div class="footer-center">
-      <small>Please visit 
-        <a href="https://github.com/aeronje/" target="_blank" rel="noopener noreferrer">GitHub profile</a> 
-        for more</small>
+      <small>
+        Please visit 
+        <a href="https://github.com/aeronje/" target="_blank">GitHub profile</a>
+      for more</small>
     </div>
 
-    <!-- RIGHT -->
     <div class="footer-right">
-      <a href="https://facebook.com/aeronje" target="_blank" rel="noopener noreferrer" class="fb-link">
-        <div class="fb-circle">
-          <i class="fab fa-facebook-f"></i>
-        </div>
-        <div class="fb-text">Digital Creator</div>
+      <a href="https://facebook.com/aeronje" target="_blank" class="fb-link">
+        <i class="fab fa-facebook"></i>
+        <span>Digital Creator</span>
       </a>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 </html>
