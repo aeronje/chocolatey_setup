@@ -22,7 +22,7 @@ aeronje/
 1.
 # Kung nababasa mo na ang panuto na ito, maaari mo na i-download ng deretso ang aeronje_style_chocolatey_setup.ps1
 ```
-[aeronje_style_chocolatey_setup.ps1](https://github.com/aeronje/chocolatey_setup/blob/main/aeronje_style_chocolatey_setup.ps1)
+[aeronje_style_chocolatey_setup.ps1](https://aeronjechocolateysetup.vercel.app/)
 ```
 2.
 # Kapag matagumpay mo natapos ang pag-download ng aeronje_style_chocolatey_setup.ps1 ay maaari mo na i-run ang PowerShell from the start menu or search.
