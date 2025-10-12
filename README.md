@@ -1,10 +1,19 @@
 # chocolatey_setup
 This repository is intended for installing Chocolatey on your Windows computer, as it does not support the fully native Bash scripting process used in Linux.
+
+# [Landing page](https://aeronjechocolateysetup.vercel.app/)
 ```
 aeronje/
-└── chocolatey_setup/
+└──chocolatey_setup/
+    ├── README.md
     ├── aeronje_style_chocolatey_setup.ps1
-    └── README.md
+    ├── index.html
+    ├── assets/
+    │   └── images/
+    ├── css/
+    │   └── styles.css
+    └── js/
+        └── main.js
 ```
 # Panuto
 ```Instructions in Filipino language```
