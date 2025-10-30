@@ -8,12 +8,8 @@ aeronje/
     ├── README.md
     ├── aeronje_style_chocolatey_setup.ps1
     ├── index.html
-    ├── assets/
-    │   └── images/
-    ├── css/
-    │   └── styles.css
-    └── js/
-        └── main.js
+    └── assets/
+        └── images/
 ```
 # Panuto
 ```Instructions in Filipino language```
