@@ -1,4 +1,8 @@
 // Ron Penones | November 1st 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
+// Ang index.js na ito ay subtly rewrote sa address bar ng browser kaya merong nakabukod na rewrite rule script na vercel.json.
+// Ang vercel.json ay nasa root directory ng repository kumbaga main repo folder.
+// Ang problema kasi dito ay may halong /api ang nalabas sa address bar kaya nagsulat ako ng rewrite rule para hindi baduy na parang jowa mo.
+// Sundan ng maayos ang property structure sa vercel.json especially sa huling array item ay dapat walang comma sa dulo.
 
 export const config = {
   runtime: 'nodejs', // nodejs imbis na mag-specify ng version para si Vercel na bahala sa pag-handle ng fetch API kung saang version ang gagamitin sa environment nila.
