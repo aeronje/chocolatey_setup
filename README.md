@@ -4,7 +4,8 @@ This repository is intended for installing Chocolatey on your Windows computer, 
 ```
 aeronje/
 └──chocolatey_setup/
-    ├── index.js
+    ├── api
+    │   └── index.js
     ├── aeronje_style_chocolatey_setup.ps1
     └── README.md
 ```
