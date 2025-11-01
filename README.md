@@ -7,6 +7,7 @@ aeronje/
     ├── api
     │   └── index.js
     ├── aeronje_style_chocolatey_setup.ps1
+    ├── vercel.json
     └── README.md
 ```
 # Panuto
