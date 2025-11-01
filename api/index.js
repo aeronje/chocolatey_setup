@@ -6,10 +6,10 @@ let lastFetched = 0;
 export default async function handler(req, res) {
   try {
     const now = Date.now();
-    const cacheDuration = 5 * 60 * 1000; // 5 minutes cache para hindi masyado bugbog si Vercel at jsDelivr tutal landing page lang naman
+    const cacheDuration = 5 * 60 * 1000; // 5 minutes cache para hindi masyado bugbog si Vercel at jsDelivr tutal landing page lang naman.
 
     if (!cachedHTML || now - lastFetched > cacheDuration) {
-      const htmlURL = 'https://cdn.jsdelivr.net/gh/<username>/<repo>@main/index.html';
+      const htmlURL = 'https://cdn.jsdelivr.net/gh/mobiledropbox/landing_pages_scripts@main/chocolatey_setup/index.html'; // Dito naka-map iyong index.html via jsDelivr.
       const response = await fetch(htmlURL);
 
       if (!response.ok) {
