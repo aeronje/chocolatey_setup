@@ -1,7 +1,7 @@
 // Ron Penones | November 1st 2025 - Feel free to share and reproduce, the core idea is mine with some assistance of AI. Padayon!
 
 export const config = {
-  runtime: 'nodejs22.x', // Nilapat ko ito kasi most common issue iyong fetch failures sa Vercel.
+  runtime: 'nodejs', // nodejs imbis na mag-specify ng version para si Vercel na bahala sa pag-handle ng fetch API kung saang version ang gagamitin sa environment nila.
 };
 
 let cachedHTML = null;
